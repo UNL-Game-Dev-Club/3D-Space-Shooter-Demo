@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Boundary
-{
-    public float xMin, xMax, zMin, zMax;
-}
-
 public class PlayerController : MonoBehaviour
 {
     public float speed;
     public float tilt;
-    public Boundary boundary;
 
     private Rigidbody rb;
 
@@ -29,12 +22,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // TODO: add firing
+        // TODO: Add shoot code
     }
 
     void FixedUpdate()
     {
-        // TODO: add movement
+        // TODO: add movement code
     }
 
 }
