@@ -18,7 +18,8 @@ public class CameraMovement : MonoBehaviour
     {
         if (player != null)
         {
-            // TODO: add camera movement code
+            transform.position = player.transform.position + offset;
+            transform.rotation = player.transform.rotation;
         }
     }
 }
